@@ -17,7 +17,7 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-colorscheme industry
+"colorscheme codedark
 
 " set the runtime path to include Vundle
 set rtp+=~/.vim/bundle/vundle/
@@ -29,6 +29,7 @@ call vundle#begin()
 " This is the Vundle package, which can be found on GitHub.
 Plugin 'gmarik/vundle.git' " let Vundle manage Vundle, required
 
+Plugin 'tomasiser/vim-code-dark'
 Bundle 'vexxor/phpdoc.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree.git'
@@ -344,7 +345,7 @@ set dir=/tmp
 "Color
 set t_Co=256 "enable 256 colors
 syntax on "enable syntax coloring
-color molokai "color scheme"
+color codedark "color scheme"
 
 " Show line numbers
 set number

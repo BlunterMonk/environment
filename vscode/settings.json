@@ -1,0 +1,137 @@
+{
+    "editor.fontSize": 20,
+    "editor.renderWhitespace": "none",
+    "breadcrumbs.enabled": false,
+    "files.exclude": {
+        ".terraform/": true,
+        "**/.git": false
+    },
+    "[sql]": {
+        "editor.defaultFormatter": "ms-mssql.mssql"
+    },
+    "codemetrics.basics.CodeLensHiddenUnder": 10,
+    "vim.debug.loggingLevelForConsole": "debug",
+    "vim.easymotion": true,
+    "vim.leader": "<Space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-s>"
+            ],
+            "after": ["<leader>", "<leader>", "s"]
+        },
+        {
+            "before": ["I"],
+            "after": ["<Up>", "<Up>", "<Up>", "<Up>", "<Up>"]
+        },
+        {
+            "before": ["K"],
+            "after": ["<Down>", "<Down>", "<Down>", "<Down>", "<Down>"]
+        },
+        {
+            "before": ["H"],
+            "after": ["A"]
+        },
+        {
+            "before": ["J"],
+            "after": ["b"]
+        },
+        {
+            "before": ["L"],
+            "after": ["w"]
+        },
+        {
+            "before": ["<C-j>"],
+            "commands": ["workbench.action.navigateBack"]
+        },
+        {
+            "before": ["<C-l>"],
+            "commands": ["workbench.action.navigateForward"]
+        },
+        {
+            "before": ["s"],
+            "after": []
+        },
+        {
+            "before": ["a"],
+            "after": []
+        },
+        {
+           "before": ["h"],
+            "after": ["i"]
+        },
+        {
+            "before": ["j"],
+            "after": ["<Left>"]
+        },
+        {
+            "before": ["k"],
+            "after": ["<Down>"]
+        },
+        {
+            "before": ["l"],
+            "after": ["<Right>"]
+        },
+        {
+            "before": ["i"],
+            "after": ["<Up>"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["j"],
+            "after": ["<Left>"]
+        },
+        {
+            "before": ["k"],
+            "after": ["<Down>"]
+        },
+        {
+            "before": ["l"],
+            "after": ["<Right>"]
+        },
+        {
+            "before": ["i"],
+            "after": ["<Up>"]
+        }
+    ],
+    "vim.easymotionMarkerFontSize": "18",
+    "vim.easymotionMarkerFontFamily": "Courier New",
+    "vim.easymotionMarkerHeight": 18,
+    "vim.easymotionMarkerForegroundColorOneChar": "#FFFF00",
+    "vim.easymotionMarkerBackgroundColor": "#0452E9",
+    "vim.easymotionMarkerWidthPerChar": 9,
+    "vim.easymotionMarkerYOffset": -12,
+    "search.useIgnoreFiles": false,
+    "bookmarks.navigateThroughAllFiles": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "go.buildTags": "integration",
+    "discord-chat.compactView": true,
+    "discord-chat.hideMutedChannels": true,
+    "discord-chat.hideMutedServers": true,
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "terraform.languageServer": {
+        "external": true,
+        "args": [
+            "serve"
+        ]
+    },
+    "githd.blameView.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "go.autocompleteUnimportedPackages": true,
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        }
+    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.scrollback": 10000,
+    "editor.minimap.enabled": false
+}

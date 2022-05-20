@@ -26,3 +26,6 @@ Copy Color Schemes
 - cp colors ~/.vim/colors
 
 
+TMUX: 
+
+Powerline theme: https://github.com/jimeh/tmux-themepack
